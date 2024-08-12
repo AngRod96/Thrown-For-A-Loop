@@ -14,4 +14,4 @@ while (string.IsNullOrEmpty(response))
     response = Console.ReadLine();
 }
 
-Console.WriteLine($"You chose: {response}");
+Console.WriteLine($"You choose {response}");
