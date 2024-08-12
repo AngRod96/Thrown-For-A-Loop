@@ -15,3 +15,11 @@ while (string.IsNullOrEmpty(response))
 }
 
 Console.WriteLine($"You choose {response}");
+
+Console.WriteLine(@"Products:
+1. Football
+2. Hockey Stick
+3. Boomerang
+4. Frisbee
+5. Golf Putter");
+Console.WriteLine("Please enter a product number: ");
