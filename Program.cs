@@ -30,4 +30,18 @@ while (response > 5 || response < 1)
     response = int.Parse(Console.ReadLine().Trim());
 }
 
-//figure out why im getting error on response
+// //figure out why im getting error on response
+
+name = "Grace Hopper"; //totally fine
+name = null; //totally fine - strings can be null
+name = 586; //compiler error. 586 is an int, not a string. 
+
+age = 42; //totally fine
+age = null // compiler error! a regular int cannot be null.
+age = "ten"; //compiler error - "ten" is a string
+
+ready = true; //totally fine
+ready = "true"; //compiler error, "true" is a string, not a bool
+ready = null; //compiler error - bools cannot be null.
+
+List<string> names = new List<string>();
