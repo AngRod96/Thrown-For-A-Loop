@@ -23,3 +23,11 @@ Console.WriteLine(@"Products:
 4. Frisbee
 5. Golf Putter");
 Console.WriteLine("Please enter a product number: ");
+
+while (response > 5 || response < 1)
+{
+    Console.WriteLine("Choose a number between 1 and 5!");
+    response = int.Parse(Console.ReadLine().Trim());
+}
+
+//figure out why im getting error on response
