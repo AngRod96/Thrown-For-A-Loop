@@ -31,17 +31,19 @@ while (response > 5 || response < 1)
 }
 
 // //figure out why im getting error on response
+let names = [];
 
-name = "Grace Hopper"; //totally fine
-name = null; //totally fine - strings can be null
-name = 586; //compiler error. 586 is an int, not a string. 
+List<int> years = new List<int>()
+{
+    1985, 
+    2022,
+    1999,
+    1976
+};
 
-age = 42; //totally fine
-age = null // compiler error! a regular int cannot be null.
-age = "ten"; //compiler error - "ten" is a string
-
-ready = true; //totally fine
-ready = "true"; //compiler error, "true" is a string, not a bool
-ready = null; //compiler error - bools cannot be null.
-
-List<string> names = new List<string>();
+let years = [
+  1985, 
+  2022,
+  1999,
+  1976
+];
