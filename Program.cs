@@ -66,3 +66,6 @@ for (int i = 0; i < products.Count; i++)
     Console.WriteLine($"{i + 1}. {products[i]}");
 }
 
+while (response > products.Count || response < 1)
+
+Console.WriteLine($"You chose: {products[response - 1]}");
