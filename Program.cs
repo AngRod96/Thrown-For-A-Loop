@@ -69,3 +69,16 @@ for (int i = 0; i < products.Count; i++)
 while (response > products.Count || response < 1)
 
 Console.WriteLine($"You chose: {products[response - 1]}");
+
+const products = [
+    {
+        name: "football",
+        price: 15,
+        sold: false
+    },
+    {
+        name: "hockey stick", 
+        price: 12, 
+        sold: false
+    }
+];
