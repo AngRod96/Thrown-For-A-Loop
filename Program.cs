@@ -47,3 +47,16 @@ let years = [
   1999,
   1976
 ];
+
+List<string> products = new List<string>()
+{
+    "Football",
+    "Hockey Stick",
+    "Boomerang",
+    "Frisbee",
+    "Golf Putter"
+};
+
+Console.WriteLine("Products:");
+
+Console.WriteLine("Please enter a product number: ");
