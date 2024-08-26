@@ -35,3 +35,5 @@ Console.WriteLine($"You chose: {chosenProduct.Name}, which costs {chosenProduct.
 DateTime newYears2023 = new DateTime(2023, 1, 1);
 
 const newYears2023 = new Date(2023, 0, 1);
+
+DateTime noonOnJanuaryFirst = new DateTime(2023, 1, 1, 12, 0, 0);
