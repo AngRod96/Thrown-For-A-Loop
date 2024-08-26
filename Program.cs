@@ -29,3 +29,9 @@ List<Product> products = new List<Product>()
 Console.WriteLine($"{i + 1}. {products[i].Name}");
 Product chosenProduct = products[response - 1];
 Console.WriteLine($"You chose: {chosenProduct.Name}, which costs {chosenProduct.Price} dollars and is {(chosenProduct.Sold ? "" : "not ")}sold.");
+
+
+//datetime
+DateTime newYears2023 = new DateTime(2023, 1, 1);
+
+const newYears2023 = new Date(2023, 0, 1);
