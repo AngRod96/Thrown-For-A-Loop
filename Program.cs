@@ -25,3 +25,7 @@ List<Product> products = new List<Product>()
         Sold = false
     }
 };
+
+Console.WriteLine($"{i + 1}. {products[i].Name}");
+Product chosenProduct = products[response - 1];
+Console.WriteLine($"You chose: {chosenProduct.Name}, which costs {chosenProduct.Price} dollars and is {(chosenProduct.Sold ? "" : "not ")}sold.");
