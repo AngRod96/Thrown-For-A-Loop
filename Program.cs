@@ -1,4 +1,6 @@
 ﻿
+using System.Runtime.InteropServices;
+
 public class Product
 {
     public string Name { get; set; }
@@ -9,6 +11,16 @@ public class Product
 List<Product> products = new List<Product>()
 {
 };
+
+List<Cars> cars = new List<Cars>()
+{
+    new Cars()
+    {
+        Make = "Toyota",
+        Model = "Civic ",
+        Sold = false
+    }
+}
 
 List<Product> products = new List<Product>()
 {
