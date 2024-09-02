@@ -19,6 +19,17 @@ List<Cars> cars = new List<Cars>()
         Make = "Toyota",
         Model = "Civic ",
         Sold = false
+    }    new Cars()
+    {
+        Make = "Honda",
+        Model = "accord",
+        Sold = True
+    },
+    new Cars()
+    {
+        Make = "Honda",
+        Model = "accord",
+        Sold = True
     }
 }
 
