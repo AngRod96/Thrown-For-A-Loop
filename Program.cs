@@ -30,7 +30,13 @@ List<Cars> cars = new List<Cars>()
         Make = "Honda",
         Model = "accord",
         Sold = True
-    }
+    }.
+    new Cars()
+    {
+        Make = "Fiat",
+        Model = "Sport",
+        Sold = True
+    }.
 }
 
 List<Product> products = new List<Product>()
