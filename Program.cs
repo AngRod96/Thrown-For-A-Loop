@@ -39,6 +39,8 @@ List<Cars> cars = new List<Cars>()
     }.
 }
 
+Console.WriteLine($"{i + 1}. {products[i].Name}");
+
 List<Product> products = new List<Product>()
 {
     new Product()
